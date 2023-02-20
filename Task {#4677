@@ -1,0 +1,29 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#4674
+    [34mall[39m: [
+      [34;4mApp\Models\Task[39;24m {#4676
+        [34mid[39m: [35m2[39m,
+        [34mcontent[39m: "[32mSimilique consequatur voluptatibus sit cupiditate consequatur quod.[39m",
+        [34mcreated_at[39m: "[32m2023-02-20 09:11:25[39m",
+        [34mupdated_at[39m: "[32m2023-02-20 09:11:25[39m",
+      },
+      [34;4mApp\Models\Task[39;24m {#4677
+        [34mid[39m: [35m3[39m,
+        [34mcontent[39m: "[32mMolestiae ut rerum eum officiis.[39m",
+        [34mcreated_at[39m: "[32m2023-02-20 09:11:26[39m",
+        [34mupdated_at[39m: "[32m2023-02-20 09:11:26[39m",
+      },
+      [34;4mApp\Models\Task[39;24m {#4678
+        [34mid[39m: [35m4[39m,
+        [34mcontent[39m: "[32mhogehoge[39m",
+        [34mcreated_at[39m: "[32m2023-02-20 10:11:29[39m",
+        [34mupdated_at[39m: "[32m2023-02-20 10:11:29[39m",
+      },
+      [34;4mApp\Models\Task[39;24m {#4679
+        [34mid[39m: [35m5[39m,
+        [34mcontent[39m: "[32mtest[39m",
+        [34mcreated_at[39m: "[32m2023-02-20 10:16:23[39m",
+        [34mupdated_at[39m: "[32m2023-02-20 10:16:23[39m",
+      },
+    ],
+  }
+
