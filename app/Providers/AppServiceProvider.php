@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Repositories\MySQL\TenantMySQLRepository;
+use App\Repositories\TenantRepositoryInterface;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -11,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->bind(TenantRepositoryInterface::class, TenantMySQLRepository::class);
     }
 
     /**

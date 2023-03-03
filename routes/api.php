@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TaskController;
+use App\Http\Controllers\TenantController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -29,4 +30,8 @@ Route::controller(TaskController::class)->group(function () {
     Route::get('/tasks/{id}', 'show');
     Route::put('/tasks/{id}', 'update');
     Route::delete('/tasks/{id}', 'destroy');
+});
+
+Route::controller(TenantController::class)->group(function() {
+    Route::get('/tenants/{id}', 'show');
 });
